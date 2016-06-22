@@ -1,19 +1,17 @@
 Metar information module for SvxLink (based on the latest trunk
-from Aug 2009) by Adi, DL1HRC
+from june 2016) by Adi, DL1HRC
 
-VERSION 0.0.2
+VERSION 0.0.2a (22th june 2016)
 
 
 CHANGES:
-- completely rewritten, based on regex.h
-- RVR
-- trends
+- TCL procedure cloudtypes{} was missing, added
 
 
 FUNCTION:
 
 Get METAR (weather) information from ICAO locations, usually airports and 
-gives them out. With V0.0.2 you can request a METAR from an
+gives them out. With V0.0.2a you can request a METAR from an
 airport of your interest.
 
 command  function
